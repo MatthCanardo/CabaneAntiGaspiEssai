@@ -1,0 +1,219 @@
+
+
+img{
+  width: 500px; height: 400px;
+}
+
+.banner {
+  background-color: white; margin-left: 50px; margin-right: 50px;
+}
+#image
+{
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+
+.menu-list
+{
+  background-color: #282A28;
+  color: white;
+  margin-top: -22px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.menu-list .menu {
+
+  margin-right: 20px; font-size: 14px; margin-top: 20px; margin-bottom: 20px;
+}
+
+.menu-list .point {
+  font-size:35px; color: pink; margin-right: 20px; margin-top: -3px;
+}
+
+#ane {width: 900px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: -20px;
+  margin-top: 40px;
+  object-fit: cover;
+  }
+#cuisine {width: 900px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: -20px;
+  margin-top: 40px;
+object-fit: cover;}
+#image3 {width: 900px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: -20px;
+  margin-top: 40px;
+  object-fit: cover;}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("arriere-plan.jpg");
+  font-family: "Thasadith";
+
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  border:none;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+  text-align: center;
+  border:none;
+
+
+}
+
+
+
+/* Add a card effect for articles */
+.section{
+  background-color: white;
+  padding: 20px;
+
+}
+
+.section1 {
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+}
+/* Footer */
+.footer {
+  padding: 20px;
+
+  background: ;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+
+
+.is-7
+
+{margin-left: 150px;
+}
+
+
+.column-end
+{background-color: #EDEDED;
+  margin-top: -23px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.bas-single-element
+{margin-left: 0px;}
+
+.menu1
+{
+  border-top-style:  solid;
+  border-width: 1px;
+  border-color:#D3D3D3;
+  font-size: 13px;
+  color: grey;
+
+}
+
+.mentionslegales
+{
+  font-size: 13px;
+  color: grey;
+
+
+}
+
+#book1 {
+
+  width: 300px; height: 300px;
+
+
+}
+
+.row
+{background-color: white;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: -25px;
+border-width: 0px;
+}
+
+
+
+.entete
+{
+
+  background-color: white;
+  margin-top: -100px;
+  margin-left: 200px;
+  padding:20px;
+  margin-right: -20px;
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+}
+
+
+.date
+{
+  color: grey;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -40px;
+}
+
+.article{
+
+  margin-left: 220px;
+  margin-top: -100px;
+  font-size: 18px;
+  color: black;
+}
